@@ -45,3 +45,17 @@ var largeText = document.getElementById("make-large");
 largeText.addEventListener("click", function(){
   guineaPig.classList.add("make-large");
 });
+
+// Requirement Number 7
+
+var capture = document.getElementById("add-border");
+capture.addEventListener("click", function(){
+  guineaPig.classList.add("add-border");
+});
+
+// Requirement Number 8
+
+var roundBdr = document.getElementById("add-rounding");
+roundBdr.addEventListener("click", function(){
+  guineaPig.classList.add("rounded");
+});

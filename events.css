@@ -5,3 +5,28 @@
 .make-large{
   font-size: 2em;
 }
+
+.add-border{
+  border: 1px solid black;
+  display: inline;
+}
+
+.rounded{
+  border-radius: 20px;
+  padding: 3px;
+}
+
+/* Requirement 9 & 10 */
+section:nth-child(1){
+  font-weight: bold;
+}
+
+section:nth-child(6){
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Requirement 11*/
+button{
+  display: block;
+}
